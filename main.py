@@ -13,7 +13,7 @@ from sqlalchemy import ForeignKey
 import os
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
+app.config['SECRET_KEY'] = '9BYkEfBA606donzWlSihBXox7COsKR6b'
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
